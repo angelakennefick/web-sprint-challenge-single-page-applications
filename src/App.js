@@ -66,6 +66,9 @@ export default function App () {
         <BrowserRouter>
         <Link to="/">Home</Link>
         <Link id= "order-pizza" to="/pizza">New Order</Link>
+        <Link to="/add2order">
+          <button id="order-button"/>
+        </Link>
         </BrowserRouter>
         <Form
         values={formValues}
